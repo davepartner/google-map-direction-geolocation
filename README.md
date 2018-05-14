@@ -100,6 +100,10 @@ a text address as the destination. That's what makes this code useful.
     src="https://maps.googleapis.com/maps/api/js?key=GOOGLE-MAP-DIRECTION-API-KEY&callback=initMap">
     
     //you need to enable google map, and google direction javascript APIs from inside your http://console.developers.google.com account
+    //STEPS
+    //1. Login, create a project, then click on "ENABLE APIs and SERVICES" at the top of the page
+    //2. Enable 3 APIs - Geolocation API, Directions API, Maps Javascript API
+    //3. If you are using this code outside of the web, eg. android, you have to enable the 'maps sdk for android' or ios as the case may be
 //You then have to insert the key in place of the GOOGLE-MAP-DIRECTION-API-KEY above.
     </script>
 ````
