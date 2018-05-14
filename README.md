@@ -7,7 +7,7 @@ A javascript sample code for plotting direction from user's current location to 
 a text address as the destination. That's what makes this code useful. 
 
 ## Write this CSS code for the map. Note that if there is no width and height, sorry your evil map will not work and it will not tell you why 
-```
+````
 <style>
       /* Always set the map height explicitly to define the size of the div
        * element that contains the map. */
@@ -23,22 +23,22 @@ a text address as the destination. That's what makes this code useful.
       }
  
     </style> 
-    ```
+````
 
 ## Inside this HTML anywhere in your page where you want the map to show 
-    ```
+    ````
     <div id="map"></div>
-    ```
+    ````
     
     
 ## The below is just an element holding the destination, I have it hidden. You can unhide yours. 
-    ```
+    ````
     <input type="hidden" value="Empire state building, new york city" id="end" />
-    ```
+    ````
 
 ## Below is the javascript, please read the instruction in the last 3 lines of the javascript 
 
-```
+````
 <script>
 
       function initMap() {
@@ -102,7 +102,7 @@ a text address as the destination. That's what makes this code useful.
     //you need to enable google map, and google direction javascript APIs from inside your http://console.developers.google.com account
 //You then have to insert the key in place of the GOOGLE-MAP-DIRECTION-API-KEY above.
     </script>
-```
+````
 
 
 ## Thank me
