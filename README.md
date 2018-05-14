@@ -25,7 +25,7 @@ a text address as the destination. That's what makes this code useful.
     </style> 
 ````
 
-## Inside this HTML anywhere in your page where you want the map to show 
+## Paste this HTML anywhere in your page where you want the map to show 
    `
     <div id="map"></div>
     `
