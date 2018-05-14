@@ -22,14 +22,19 @@ a text address as the destination. That's what makes this code useful.
         padding: 0;
       }
  
-    </style> ```
+    </style> 
+    ```
 
 ## Inside this HTML anywhere in your page where you want the map to show 
-    ```<div id="map"></div>```
+    ```
+    <div id="map"></div>
+    ```
     
     
 ## The below is just an element holding the destination, I have it hidden. You can unhide yours. 
-    ```<input type="hidden" value="Empire state building, new york city" id="end" />```
+    ```
+    <input type="hidden" value="Empire state building, new york city" id="end" />
+    ```
 
 ## Below is the javascript, please read the instruction in the last 3 lines of the javascript 
 
